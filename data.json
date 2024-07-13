@@ -1,0 +1,7 @@
+[
+    {"id": "1001", "name": "saksham", "allowed": true},
+    {"id": "1002", "name": "anshuman", "allowed": false},
+    {"id": "1003", "name": "abhinav", "allowed": true},
+    {"id": "1004", "name": "ayush", "allowed": false},
+    {"id": "1005", "name": "Eve Davis", "allowed": true}
+]
