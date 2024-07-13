@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voter Verification System</h1>
+        <video id="preview"></video>
+        <div id="voterDetails"></div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Voting Instructions</h2>
+            <div class="instruction-step">
+                <img src="step1.jpg" alt="Step 1: Proceed to the voting booth">
+                <p>Step 1: Proceed to the voting booth.</p>
+            </div>
+            <div class="instruction-step">
+                <img src="step2.jpg" alt="Step 2: Confirm your identity">
+                <p>Step 2: Confirm your identity with the election officer.</p>
+            </div>
+            <div class="instruction-step">
+                <img src="step3.jpg" alt="Step 3: Use the Electronic Voting Machine">
+                <p>Step 3: Use the Electronic Voting Machine to cast your vote.</p>
+            </div>
+            <div class="instruction-step">
+                <img src="step4.jpg" alt="Step 4: Press the button next to your choice">
+                <p>Step 4: Press the button next to your choice on the ballot unit.</p>
+            </div>
+            <div class="instruction-step">
+                <img src="step5.jpg" alt="Step 5: Verify your vote">
+                <p>Step 5: Verify your vote on the Voter Verified Paper Audit Trail (VVPAT) system.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
